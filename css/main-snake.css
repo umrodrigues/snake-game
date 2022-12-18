@@ -6,7 +6,7 @@ body {
 }
 
 #game-area {
-	margin:10px;
+	margin:5px; 
 	padding:0px;
 }
 
@@ -81,8 +81,8 @@ a.snake-link:hover {
     margin: 0px;
     padding: 0px;
     position: absolute;
-    background-color: #0000A8;
-    border: 0px solid #0000A8;
+    background-color: #21262d;
+    border: 0px solid #21262d;
     border-radius: 41px;
 }
 

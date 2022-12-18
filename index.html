@@ -43,33 +43,16 @@ function getTheme () {
 <body>
     <div class="snake-toolbar">
       <div style="display:inline-block;margin-right:10px;">
-        <span>Tema:</span>
-        <select autocomplete="off" onchange="getTheme()" id="select">
-            <option selected>Tema principal</option>
-
-        </select>
-      </div>
-      <div style="display:inline-block;margin-right:10px;">
         <span>Modo:</span>
         <select id="selectMode">
             <option value="100">Fácil</option>
             <option value="75" selected>Médio</option>
             <option value="50">Díficil</option>
             <option value="25">Impossível</option>
-            <option value="110">Correria</option>
         </select>
       </div>
       <button onclick="go_full_screen()">Modo tela cheia</button><br />
     </div>
-
-    <!--
-      <h2>Select which mode you would like to play in.</h2>
-      <button id="Easy">Easy</button><br />
-      <button id="Medium">Medium</button><br />
-      <button id="Difficult">Difficult</button>
-
-<button id="high-score">Get your current high score for this game.</button>
--->
     <div id="mode-wrapper" style="display: inline; width: auto;">
     </div>
 
